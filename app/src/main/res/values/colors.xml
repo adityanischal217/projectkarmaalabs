@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0A4FA2</color>
+    <color name="appcolorornage">#EA6C06</color>
+    <color name="appcolorblue">#0A4FA2</color>
+    <color name="White">#FFFFFF</color>
+    <color name="LightGray">#ededed</color>
+    <color name="LightSkyBlue_b">#BDD8EE</color>
+    <color name="LightOrange">#f1d7a9</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="SandyBrown">#F4A460</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="Gray">#808080</color>
+    <color name="Blue">#0000FF</color>
+    <color name="Black">#000000</color>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbaar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationContentDescription="@string/abc_action_bar_up_description"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <FrameLayout
+        android:id="@+id/mainframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbaar">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/viewpager_relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:tabBackground="@drawable/indicator_selector"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp" />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewpager_relativelayout">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/aboutus_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About Us"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/aboutsdescription_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="@string/abouts"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/textSize18sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="Contact us"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize22sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="@string/contactustext"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/textSize18sp" />
+
+                    <TextView
+                        android:id="@+id/contactme_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="@string/mobile"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize18sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="Visit us"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/weburl_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/mar_5"
+                        android:layout_marginTop="@dimen/mar_10"
+                        android:layout_marginBottom="@dimen/mar_10"
+                        android:paddingLeft="@dimen/mar_10"
+                        android:text="http://www.karmaalab.com/"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/textSize18sp" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

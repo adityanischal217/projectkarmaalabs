@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">projectkarma</string>
+    <string name="title_activity_maps">map</string>
+    <string name="hello_blank_fragment">hi</string>
+    <string name="getlocation">Get Location</string>
+    <string name="Entry">Entry</string>
+    <string name="show">Show</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-password</string>
+    <string name="signup">SignUp</string>
+    <string name="already_has_an_account">Already has an account?</string>
+    <string name="login_here">login here</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="signupback">Are you sure you want to cancel signup</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="abouts">Kl is utilizing paradigms of Internet of Things(IoT), AI, Machine Learning, Computer vision, Robotics, Data Science, Deep Learning, Embedded systems, Bio-informatics and Green Tech for various use cases.</string>
+    <string name="contactustext">Get in touch with us to explore our world and be a part of the network.</string>
+    <string name="mobile">+ 91 8048909264</string>
+    <string name="enter_customer_details">Enter Customer Details</string>
+    <string name="latitude">LATITUDE</string>
+    <string name="longitude">LONGITUDE</string>
+    <string name="dob">DOB</string>
+    <string name="age">AGE</string>
+    <string name="name1">NAME</string>
+
+
+</resources>
